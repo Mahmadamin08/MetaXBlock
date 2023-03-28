@@ -5,7 +5,8 @@ import styles from './page.module.css'
 import Navbar from 'components/Navbar'
 import HomePage from 'components/HomePage'
 import Services from 'components/Services'
-import ContactUs from 'components/ContactUs'
+import ContactUs from '@/pages/contactus'
+import Footer from 'components/Footer'
 
 export default function Home() {
   return (
@@ -13,7 +14,8 @@ export default function Home() {
       {/* <Navbar/> */}
       <HomePage />
       <Services />
-      <ContactUs />
+      {/* <ContactUs /> */}
+      <Footer />
     </main>
   )
 }

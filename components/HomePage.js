@@ -12,9 +12,10 @@ const HomePage = () => {
                     <button className="btn explore">Explore Our Services</button>
                 </div>
                 <div className="col2">
-                    <Image src="/hhhh.svg" width={700} height={700}></Image>
+                    <Image src="/hhhh.svg" width={700} height={700} alt="img"></Image>
                 </div>
             </div>
+          
         </div>
     )
 }
