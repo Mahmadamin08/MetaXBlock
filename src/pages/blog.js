@@ -1,7 +1,8 @@
-import React from 'react'
-import Footer from 'components/Footer'
-import Navbar from 'components/Navbar'
-import '../app/globals.css'
+import React from "react"
+import Footer from "components/Footer"
+import Navbar from "components/Navbar"
+import Image from "next/image";
+import "../app/globals.css"
 
 const Blog = () => {
     return (
@@ -19,7 +20,7 @@ const Blog = () => {
                         <div className="p-12 md:w-1/2 flex flex-col items-start">
                             <span className="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">CATEGORY</span>
                             <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Roof party normcore before they sold out, cornhole vape</h2>
-                            <p className="leading-relaxed mb-8">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric. Cray pug you probably haven't heard of them hexagon kickstarter craft beer pork chic.</p>
+                            <p className="leading-relaxed mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos amet consequatur vel! Adipisci veritatis veniam cupiditate esse, atque error qui dignissimos facilis excepturi corporis praesentium. Officiis iusto quibusdam ipsam quo.</p>
                             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
                                 <a className="text-indigo-500 inline-flex items-center">Learn More
                                     <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -40,7 +41,7 @@ const Blog = () => {
                                 </span>
                             </div>
                             <a className="inline-flex items-center">
-                                <img alt="blog" src="https://dummyimage.com/104x104" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
+                                <Image alt="blog" src="/dummy.png" width={200} height={200} className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
                                 <span className="flex-grow flex flex-col pl-4">
                                     <span className="title-font font-medium text-gray-900">Holden Caulfield</span>
                                     <span className="text-gray-400 text-xs tracking-widest mt-0.5">UI DEVELOPER</span>
@@ -50,7 +51,7 @@ const Blog = () => {
                         <div className="p-12 md:w-1/2 flex flex-col items-start">
                             <span className="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">CATEGORY</span>
                             <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Pinterest DIY dreamcatcher gentrify single-origin coffee</h2>
-                            <p className="leading-relaxed mb-8">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric.</p>
+                            <p className="leading-relaxed mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ut architecto at nihil molestias repellat placeat non minus perspiciatis, ea tempore nemo quam nam! Modi laborum quod nisi odit facilis.</p>
                             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
                                 <a className="text-indigo-500 inline-flex items-center">Learn More
                                     <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -71,7 +72,7 @@ const Blog = () => {
                                 </span>
                             </div>
                             <a className="inline-flex items-center">
-                                <img alt="blog" src="https://dummyimage.com/103x103" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
+                                <Image alt="blog" src="/dummy.png" width={200} height={200} className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
                                 <span className="flex-grow flex flex-col pl-4">
                                     <span className="title-font font-medium text-gray-900">Alper Kamu</span>
                                     <span className="text-gray-400 text-xs tracking-widest mt-0.5">DESIGNER</span>
@@ -85,7 +86,7 @@ const Blog = () => {
                         <div className="p-12 md:w-1/2 flex flex-col items-start">
                             <span className="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">CATEGORY</span>
                             <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Roof party normcore before they sold out, cornhole vape</h2>
-                            <p className="leading-relaxed mb-8">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric. Cray pug you probably haven't heard of them hexagon kickstarter craft beer pork chic.</p>
+                            <p className="leading-relaxed mb-8">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque veniam excepturi molestias iusto aliquid inventore? Facilis cupiditate corporis error dolores quasi eos quo cumque assumenda, blanditiis repellendus voluptas unde consectetur!</p>
                             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
                                 <a className="text-indigo-500 inline-flex items-center">Learn More
                                     <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -106,7 +107,7 @@ const Blog = () => {
                                 </span>
                             </div>
                             <a className="inline-flex items-center">
-                                <img alt="blog" src="https://dummyimage.com/104x104" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
+                                <Image alt="blog" src="/dummy.png" width={200} height={200} className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
                                 <span className="flex-grow flex flex-col pl-4">
                                     <span className="title-font font-medium text-gray-900">Holden Caulfield</span>
                                     <span className="text-gray-400 text-xs tracking-widest mt-0.5">UI DEVELOPER</span>
@@ -116,7 +117,7 @@ const Blog = () => {
                         <div className="p-12 md:w-1/2 flex flex-col items-start">
                             <span className="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">CATEGORY</span>
                             <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Pinterest DIY dreamcatcher gentrify single-origin coffee</h2>
-                            <p className="leading-relaxed mb-8">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric.</p>
+                            <p className="leading-relaxed mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum officia error ad maiores eaque fuga beatae quasi cumque. Doloribus quia, natus quibusdam qui nemo quasi minus aliquid vitae expedita fugit!`</p>
                             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
                                 <a className="text-indigo-500 inline-flex items-center">Learn More
                                     <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -137,7 +138,7 @@ const Blog = () => {
                                 </span>
                             </div>
                             <a className="inline-flex items-center">
-                                <img alt="blog" src="https://dummyimage.com/103x103" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
+                                <Image alt="blog" src="/dummy.png" width={200} height={200} className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
                                 <span className="flex-grow flex flex-col pl-4">
                                     <span className="title-font font-medium text-gray-900">Alper Kamu</span>
                                     <span className="text-gray-400 text-xs tracking-widest mt-0.5">DESIGNER</span>

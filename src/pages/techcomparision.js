@@ -18,7 +18,7 @@ const techcomparision = () => {
                     <div className="flex flex-wrap -m-12">
                         <div className="p-12 md:w-1/2 flex flex-col items-start">
                             <a className="inline-flex items-center">
-                                <img alt="blog" src="https://dummyimage.com/104x104" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
+                                <Image alt="blog" src="/dummy.png" height={104} width={104} className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
                                 <span className="flex-grow flex flex-col pl-4">
                                     <span className="title-font font-medium text-gray-900">Holden Caulfield</span>
                                     <span className="text-gray-400 text-xs tracking-widest mt-0.5">UI DEVELOPER</span>
@@ -48,7 +48,7 @@ const techcomparision = () => {
                         </div>
                         <div className="p-12 md:w-1/2 flex flex-col items-start">
                             <a className="inline-flex items-center">
-                                <img alt="blog" src="https://dummyimage.com/104x104" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
+                                <Image alt="blog" src="/dummy.png" height={104} width={104} className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
                                 <span className="flex-grow flex flex-col pl-4">
                                     <span className="title-font font-medium text-gray-900">Holden Caulfield</span>
                                     <span className="text-gray-400 text-xs tracking-widest mt-0.5">UI DEVELOPER</span>
@@ -83,7 +83,7 @@ const techcomparision = () => {
                     <div className="flex flex-wrap -m-12">
                         <div className="p-12 md:w-1/2 flex flex-col items-start">
                             <a className="inline-flex items-center">
-                                <img alt="blog" src="https://dummyimage.com/104x104" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
+                                <Image alt="blog" src="/dummy.png" height={104} width={104} className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
                                 <span className="flex-grow flex flex-col pl-4">
                                     <span className="title-font font-medium text-gray-900">Holden Caulfield</span>
                                     <span className="text-gray-400 text-xs tracking-widest mt-0.5">UI DEVELOPER</span>
@@ -113,7 +113,7 @@ const techcomparision = () => {
                         </div>
                         <div className="p-12 md:w-1/2 flex flex-col items-start">
                             <a className="inline-flex items-center">
-                                <img alt="blog" src="https://dummyimage.com/104x104" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
+                                <Image alt="blog" src="/dummy.png" height={104} width={104} className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
                                 <span className="flex-grow flex flex-col pl-4">
                                     <span className="title-font font-medium text-gray-900">Holden Caulfield</span>
                                     <span className="text-gray-400 text-xs tracking-widest mt-0.5">UI DEVELOPER</span>

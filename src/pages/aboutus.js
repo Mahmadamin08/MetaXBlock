@@ -16,7 +16,10 @@ const AboutUs = () => {
             <section className="text-gray-600 px-28  body-font">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="flex flex-wrap -m-4">
-                        <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                        <div className="lg:w-1/3 lg:mb-0 mb-6 p-4 text-center items-center">
+                            <div className="w-32 h-32 inline-flex items-center justify-center rounded-full  text-indigo-500 mb-5 flex-shrink-0">
+                                <Image src="/expc.png" height={800} width={800} alt=""></Image>
+                            </div>
                             <div className="h-full text-center px-8">
                                 <h2 className="text-gray-900 font-semibold  text-4xl">A Decade Long Digital Experience</h2>
                                 <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
@@ -24,7 +27,10 @@ const AboutUs = () => {
                             </div>
                         </div>
 
-                        <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                        <div className="lg:w-1/3 lg:mb-0 mb-6 p-4 text-center items-center">
+                            <div className="w-32 h-32 inline-flex items-center justify-center rounded-full  text-indigo-500 mb-5 flex-shrink-0">
+                                <Image src="/expc.png" height={800} width={800} alt=""></Image>
+                            </div>
                             <div className="h-full text-center px-8">
                                 <h2 className="text-gray-900 font-semibold  text-4xl">Respected And Loved by All</h2>
                                 <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
@@ -32,7 +38,10 @@ const AboutUs = () => {
                             </div>
                         </div>
 
-                        <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                        <div className="lg:w-1/3 lg:mb-0 mb-6 p-4 text-center items-center">
+                            <div className="w-32 h-32 inline-flex items-center justify-center rounded-full  text-indigo-500 mb-5 flex-shrink-0">
+                                <Image src="/expc.png" height={800} width={800} alt=""></Image>
+                            </div>
                             <div className="h-full text-center px-8">
                                 <h2 className="text-gray-900 font-semibold  text-4xl"> What Do We Do for you?</h2>
                                 <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>

@@ -32,19 +32,17 @@ const Navbar = () => {
                 <li><Link href="/aboutus">About Us</Link></li>
                 <li><Link href="/">Services<RiArrowDropDownLine style={{ display: "inline-block", "fontSize": '25px' }} /></Link>
                     <ul className="submenu">
-                        <li><Link href="#" >Blockchain Development<RiArrowDropRightLine style={{ display: "inline-block", "fontSize": '25px' }} /></Link>
+                        <li><Link href="/blockchain" >Blockchain Development<RiArrowDropRightLine style={{ display: "inline-block", "fontSize": '25px' }} /></Link>
                             <ul className="submenu1">
                                 <li><Link href="#">Token Development</Link></li>
                                 <li><Link href="#">Crypto Exchange Development</Link></li>
                                 <li><Link href="#">Crypto Payment Gateway</Link></li>
                                 <li><Link href="#">Metaverse Development</Link></li>
                                 <li><Link href="#">NFT Marketplace Development</Link></li>
-                                <li><Link href="#">ICO</Link></li>
-                                <li><Link href="#">IDO</Link></li>
                                 <li><Link href="#">ICO/IDO/IEO</Link></li>
                             </ul>
                         </li>
-                        <li><Link href="#" >Web Development<RiArrowDropRightLine style={{ display: "inline-block", "fontSize": '25px' }} /></Link>
+                        <li><Link href="/webdev" >Web Development<RiArrowDropRightLine style={{ display: "inline-block", "fontSize": '25px' }} /></Link>
                             <ul className="submenu1">
                                 <li><Link href="#">Mean Stack Development</Link></li>
                                 <li><Link href="#">AngularJs Development</Link></li>
@@ -55,16 +53,16 @@ const Navbar = () => {
                                 <li><Link href="#">ReactJs Development</Link></li>
                             </ul>
                         </li>
-                        <li><Link href="#" >Mobile Development<RiArrowDropRightLine style={{ display: "inline-block", "fontSize": '25px' }} /></Link>
+                        <li><Link href="/mobiledev" >Mobile Development<RiArrowDropRightLine style={{ display: "inline-block", "fontSize": '25px' }} /></Link>
                             <ul className="submenu1">
                                 <li><Link href="#">Android Development</Link></li>
                                 <li><Link href="#">IOS Development</Link></li>
                                 <li><Link href="#">React Native Development</Link></li>
                             </ul>
                         </li>
-                        <li><Link href="#">UI/UX Designing</Link></li>
-                        <li><Link href="#">Magento/Shopify Development</Link></li>
-                        <li><Link href="#" >AI/ML<RiArrowDropRightLine style={{ display: "inline-block", "fontSize": '25px' }} /></Link>
+                        <li><Link href="uiux">UI/UX Designing</Link></li>
+                        <li><Link href="magento">Magento/Shopify Development</Link></li>
+                        <li><Link href="aiml" >AI/ML<RiArrowDropRightLine style={{ display: "inline-block", "fontSize": '25px' }} /></Link>
                             <ul className="submenu1">
                                 <li><Link href="#">Bot Development</Link></li>
                                 <li><Link href="#">Analytics</Link></li>
